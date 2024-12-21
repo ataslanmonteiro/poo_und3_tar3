@@ -28,7 +28,7 @@ class Aluno {
 }
 
 const disciplina = new Disciplina("mat1", "Matemática");
-const aluno = new Aluno("01", "João Batista da Silva", 5, 5, 5);
+const aluno = new Aluno("01", "João Batista da Silva", 7, 8, 9);
 
 console.log(`Média do aluno é: ${aluno.media()}`);
 console.log(`Pontos necessários para a prova final é: ${aluno.final()}`);
