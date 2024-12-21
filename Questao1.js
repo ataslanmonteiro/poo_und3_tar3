@@ -6,7 +6,7 @@ class Disciplina {
 }
 
 class Aluno {
-  constructor(matricula, nome, nota1, nota2, notaTrabalho){
+  constructor(matricula, nome, nota1, nota2, notaTrabalho) {
     this.matricula = matricula;
     this.nome = nome;
     this.nota1 = nota1;
@@ -14,8 +14,8 @@ class Aluno {
     this.notaTranalho = notaTrabalho;
   }
 
-  media(){
-    return((this.nota1 * 3) + (this.nota2 * 3) + (this.notaTranalho * 4)) / 10;
+  media() {
+    return (this.nota1 * 3 + this.nota2 * 3 + this.notaTranalho * 4) / 10;
   }
 
   final() {
@@ -28,8 +28,8 @@ class Aluno {
   }
 }
 
-const Disciplina = new Disciplina('mat1', 'Matemática');
-cosnt aluno = new Aluno('01','João', 7, 8, 9);
+const Disciplina = new Disciplina("mat1", "Matemática");
+const aluno = new Aluno("01", "João", 7, 8, 9);
 
 console.log(`Média do aluno é: ${aluno.media()}`);
 console.log(`Pontos necessários para a prova final é: ${aluno.final()}`);
