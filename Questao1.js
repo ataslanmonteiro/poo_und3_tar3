@@ -4,7 +4,6 @@ class Disciplina {
     this.nome = nome;
   }
 }
-
 class Aluno {
   constructor(matricula, nome, nota1, nota2, notaTrabalho) {
     this.matricula = matricula;
@@ -28,7 +27,7 @@ class Aluno {
   }
 }
 
-const Disciplina = new Disciplina("mat1", "Matemática");
+const disciplina = new Disciplina("mat1", "Matemática");
 const aluno = new Aluno("01", "João", 7, 8, 9);
 
 console.log(`Média do aluno é: ${aluno.media()}`);
